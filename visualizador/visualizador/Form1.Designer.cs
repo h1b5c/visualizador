@@ -81,7 +81,7 @@
             // ofd_imagem
             // 
             ofd_imagem.FileName = "ofd_imagem";
-            ofd_imagem.Filter = "Windows Bitmaps|*.BMP|JPEG Files|*.JPG|PNG Files|*.PNG";
+            ofd_imagem.Filter = "PNG Files|*.PNG|Windows Bitmaps|*.BMP|JPEG Files|*.JPG";
             // 
             // btn_aumentar
             // 

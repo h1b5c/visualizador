@@ -36,7 +36,7 @@ namespace visualizador
         {
             Graphics ObjetoGrafico = null;
             ObjetoGrafico = this.CreateGraphics();
-            ObjetoGrafico.Clear(SystemColors.Control);
+            ObjetoGrafico.Clear(Color.Cornsilk);
             ObjetoGrafico.DrawRectangle(Pens.Blue, pb_imagem.Left - 1, pb_imagem.Top - 1, pb_imagem.Width + 1, pb_imagem.Height + 1);
             ObjetoGrafico.Dispose();
         }
