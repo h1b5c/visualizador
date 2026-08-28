@@ -40,5 +40,29 @@ namespace visualizador
             ObjetoGrafico.DrawRectangle(Pens.Blue, pb_imagem.Left - 1, pb_imagem.Top - 1, pb_imagem.Width + 1, pb_imagem.Height + 1);
             ObjetoGrafico.Dispose();
         }
+
+        private void pb_imagem_MouseMove(object sender, MouseEventArgs e)
+        {
+            lbl_X.Text = "X: " + e.X.ToString();
+            lbl_Y.Text = "Y: " + e.Y.ToString();
+        }
+
+        private void pb_imagem_MouseLeave(object sender, EventArgs e)
+        {
+            lbl_X.Text = "";
+            lbl_Y.Text = "";
+        }
+
+        private void w_visualizador_Load(object sender, EventArgs e)
+        {
+            lbl_X.Text = "";
+            lbl_Y.Text = "";
+        }
+
+        private void btn_OpcoesTexto_Click(object sender, EventArgs e)
+        {
+            Form frm_OptionsDialog = new OptionsForm();
+            frm_OptionsDialog.Show();
+        }
     }
 }

@@ -36,6 +36,9 @@
             btn_aumentar = new Button();
             btn_diminuir = new Button();
             btn_desenharBorda = new Button();
+            lbl_X = new Label();
+            lbl_Y = new Label();
+            btn_OpcoesTexto = new Button();
             ((System.ComponentModel.ISupportInitialize)pb_imagem).BeginInit();
             SuspendLayout();
             // 
@@ -77,6 +80,8 @@
             pb_imagem.SizeMode = PictureBoxSizeMode.Zoom;
             pb_imagem.TabIndex = 1;
             pb_imagem.TabStop = false;
+            pb_imagem.MouseLeave += pb_imagem_MouseLeave;
+            pb_imagem.MouseMove += pb_imagem_MouseMove;
             // 
             // ofd_imagem
             // 
@@ -125,12 +130,45 @@
             btn_desenharBorda.UseVisualStyleBackColor = true;
             btn_desenharBorda.Click += btn_desenharBorda_Click;
             // 
+            // lbl_X
+            // 
+            lbl_X.AutoSize = true;
+            lbl_X.Location = new Point(300, 110);
+            lbl_X.Name = "lbl_X";
+            lbl_X.Size = new Size(20, 16);
+            lbl_X.TabIndex = 3;
+            lbl_X.Text = "X:";
+            // 
+            // lbl_Y
+            // 
+            lbl_Y.AutoSize = true;
+            lbl_Y.Location = new Point(300, 125);
+            lbl_Y.Name = "lbl_Y";
+            lbl_Y.Size = new Size(17, 16);
+            lbl_Y.TabIndex = 3;
+            lbl_Y.Text = "Y:";
+            // 
+            // btn_OpcoesTexto
+            // 
+            btn_OpcoesTexto.Font = new Font("Times New Roman", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            btn_OpcoesTexto.Location = new Point(295, 155);
+            btn_OpcoesTexto.Name = "btn_OpcoesTexto";
+            btn_OpcoesTexto.Size = new Size(85, 23);
+            btn_OpcoesTexto.TabIndex = 4;
+            btn_OpcoesTexto.Text = "Opções texto";
+            btn_OpcoesTexto.UseVisualStyleBackColor = true;
+            btn_OpcoesTexto.Click += btn_OpcoesTexto_Click;
+            // 
             // w_visualizador
             // 
             AutoScaleDimensions = new SizeF(7F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Cornsilk;
             ClientSize = new Size(384, 286);
+            ControlBox = false;
+            Controls.Add(btn_OpcoesTexto);
+            Controls.Add(lbl_Y);
+            Controls.Add(lbl_X);
             Controls.Add(btn_diminuir);
             Controls.Add(btn_aumentar);
             Controls.Add(pb_imagem);
@@ -138,12 +176,17 @@
             Controls.Add(btn_desenharBorda);
             Controls.Add(btn_imagem);
             Font = new Font("Times New Roman", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "w_visualizador";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Visualizador";
+            Load += w_visualizador_Load;
             ((System.ComponentModel.ISupportInitialize)pb_imagem).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -155,5 +198,8 @@
         private Button btn_aumentar;
         private Button btn_diminuir;
         private Button btn_desenharBorda;
+        private Label lbl_X;
+        private Label lbl_Y;
+        private Button btn_OpcoesTexto;
     }
 }

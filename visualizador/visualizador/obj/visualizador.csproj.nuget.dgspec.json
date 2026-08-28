@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique\\source\\repos\\visualizador\\visualizador\\visualizador\\visualizador.csproj": {}
+    "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\visualizador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique\\source\\repos\\visualizador\\visualizador\\visualizador\\visualizador.csproj": {
+    "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\visualizador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique\\source\\repos\\visualizador\\visualizador\\visualizador\\visualizador.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\visualizador.csproj",
         "projectName": "visualizador",
-        "projectPath": "C:\\Users\\Henrique\\source\\repos\\visualizador\\visualizador\\visualizador\\visualizador.csproj",
+        "projectPath": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\visualizador.csproj",
         "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique\\source\\repos\\visualizador\\visualizador\\visualizador\\obj\\",
+        "outputPath": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
