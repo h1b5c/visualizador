@@ -61,7 +61,7 @@ namespace visualizador
 
         private void btn_OpcoesTexto_Click(object sender, EventArgs e)
         {
-            Form frm_OptionsDialog = new OptionsForm();
+            OptionsForm frm_OptionsDialog = new OptionsForm();
             frm_OptionsDialog.Show();
         }
     }
