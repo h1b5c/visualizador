@@ -44,6 +44,7 @@
             // 
             // btn_imagem
             // 
+            btn_imagem.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btn_imagem.Cursor = Cursors.Hand;
             btn_imagem.FlatAppearance.BorderColor = SystemColors.ActiveCaption;
             btn_imagem.FlatStyle = FlatStyle.Flat;
@@ -59,6 +60,7 @@
             // 
             // btn_fechar
             // 
+            btn_fechar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btn_fechar.Cursor = Cursors.Hand;
             btn_fechar.FlatAppearance.BorderColor = Color.FromArgb(255, 128, 128);
             btn_fechar.FlatStyle = FlatStyle.Flat;
@@ -66,13 +68,14 @@
             btn_fechar.Location = new Point(295, 40);
             btn_fechar.Name = "btn_fechar";
             btn_fechar.Size = new Size(85, 23);
-            btn_fechar.TabIndex = 0;
+            btn_fechar.TabIndex = 1;
             btn_fechar.Text = "Sair";
             btn_fechar.UseVisualStyleBackColor = true;
             btn_fechar.Click += btn_fechar_Click;
             // 
             // pb_imagem
             // 
+            pb_imagem.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pb_imagem.BorderStyle = BorderStyle.FixedSingle;
             pb_imagem.Location = new Point(8, 8);
             pb_imagem.Name = "pb_imagem";
@@ -90,32 +93,35 @@
             // 
             // btn_aumentar
             // 
+            btn_aumentar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btn_aumentar.BackColor = Color.PaleGoldenrod;
             btn_aumentar.FlatStyle = FlatStyle.Popup;
             btn_aumentar.Font = new Font("Arial", 9.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
             btn_aumentar.Location = new Point(338, 261);
             btn_aumentar.Name = "btn_aumentar";
             btn_aumentar.Size = new Size(21, 23);
-            btn_aumentar.TabIndex = 2;
+            btn_aumentar.TabIndex = 6;
             btn_aumentar.Text = "^";
             btn_aumentar.UseVisualStyleBackColor = false;
             btn_aumentar.Click += btn_aumentar_Click;
             // 
             // btn_diminuir
             // 
+            btn_diminuir.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btn_diminuir.BackColor = Color.PaleGoldenrod;
             btn_diminuir.FlatStyle = FlatStyle.Popup;
             btn_diminuir.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_diminuir.Location = new Point(365, 261);
             btn_diminuir.Name = "btn_diminuir";
             btn_diminuir.Size = new Size(21, 23);
-            btn_diminuir.TabIndex = 2;
+            btn_diminuir.TabIndex = 7;
             btn_diminuir.Text = "v";
             btn_diminuir.UseVisualStyleBackColor = false;
             btn_diminuir.Click += btn_diminuir_Click;
             // 
             // btn_desenharBorda
             // 
+            btn_desenharBorda.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btn_desenharBorda.Cursor = Cursors.Hand;
             btn_desenharBorda.FlatAppearance.BorderColor = SystemColors.ActiveCaption;
             btn_desenharBorda.FlatStyle = FlatStyle.Flat;
@@ -124,7 +130,7 @@
             btn_desenharBorda.Location = new Point(295, 69);
             btn_desenharBorda.Name = "btn_desenharBorda";
             btn_desenharBorda.Size = new Size(85, 23);
-            btn_desenharBorda.TabIndex = 0;
+            btn_desenharBorda.TabIndex = 2;
             btn_desenharBorda.Text = "Borda";
             btn_desenharBorda.TextImageRelation = TextImageRelation.TextBeforeImage;
             btn_desenharBorda.UseVisualStyleBackColor = true;
@@ -132,29 +138,32 @@
             // 
             // lbl_X
             // 
+            lbl_X.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lbl_X.AutoSize = true;
             lbl_X.Location = new Point(300, 110);
             lbl_X.Name = "lbl_X";
             lbl_X.Size = new Size(20, 16);
-            lbl_X.TabIndex = 3;
+            lbl_X.TabIndex = 4;
             lbl_X.Text = "X:";
             // 
             // lbl_Y
             // 
+            lbl_Y.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lbl_Y.AutoSize = true;
             lbl_Y.Location = new Point(300, 125);
             lbl_Y.Name = "lbl_Y";
             lbl_Y.Size = new Size(17, 16);
-            lbl_Y.TabIndex = 3;
+            lbl_Y.TabIndex = 5;
             lbl_Y.Text = "Y:";
             // 
             // btn_OpcoesTexto
             // 
+            btn_OpcoesTexto.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btn_OpcoesTexto.Font = new Font("Times New Roman", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btn_OpcoesTexto.Location = new Point(295, 155);
             btn_OpcoesTexto.Name = "btn_OpcoesTexto";
             btn_OpcoesTexto.Size = new Size(85, 23);
-            btn_OpcoesTexto.TabIndex = 4;
+            btn_OpcoesTexto.TabIndex = 3;
             btn_OpcoesTexto.Text = "Opções texto";
             btn_OpcoesTexto.UseVisualStyleBackColor = true;
             btn_OpcoesTexto.Click += btn_OpcoesTexto_Click;
@@ -163,9 +172,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             BackColor = Color.Cornsilk;
             ClientSize = new Size(384, 286);
-            ControlBox = false;
             Controls.Add(btn_OpcoesTexto);
             Controls.Add(lbl_Y);
             Controls.Add(lbl_X);
@@ -176,7 +185,6 @@
             Controls.Add(btn_desenharBorda);
             Controls.Add(btn_imagem);
             Font = new Font("Times New Roman", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
