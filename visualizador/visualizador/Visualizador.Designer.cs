@@ -93,7 +93,7 @@
             // 
             // btn_aumentar
             // 
-            btn_aumentar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btn_aumentar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btn_aumentar.BackColor = Color.PaleGoldenrod;
             btn_aumentar.FlatStyle = FlatStyle.Popup;
             btn_aumentar.Font = new Font("Arial", 9.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
@@ -107,7 +107,7 @@
             // 
             // btn_diminuir
             // 
-            btn_diminuir.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btn_diminuir.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btn_diminuir.BackColor = Color.PaleGoldenrod;
             btn_diminuir.FlatStyle = FlatStyle.Popup;
             btn_diminuir.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -170,10 +170,12 @@
             // 
             // w_visualizador
             // 
+            AcceptButton = btn_fechar;
             AutoScaleDimensions = new SizeF(7F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             BackColor = Color.Cornsilk;
+            CancelButton = btn_fechar;
             ClientSize = new Size(384, 286);
             Controls.Add(btn_OpcoesTexto);
             Controls.Add(lbl_Y);

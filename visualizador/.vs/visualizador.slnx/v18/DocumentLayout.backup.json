@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\optionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|solutionrelative:visualizador\\optionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|c:\\users\\henrique\\desktop\\visualizador\\visualizador\\visualizador\\optionsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|solutionrelative:visualizador\\optionsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|c:\\users\\henrique\\desktop\\visualizador\\visualizador\\visualizador\\visualizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|solutionrelative:visualizador\\visualizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\optionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|solutionrelative:visualizador\\optionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|c:\\users\\henrique\\desktop\\visualizador\\visualizador\\visualizador\\visualizador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|solutionrelative:visualizador\\visualizador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|c:\\users\\henrique\\desktop\\visualizador\\visualizador\\visualizador\\optionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|c:\\users\\henrique\\desktop\\visualizador\\visualizador\\visualizador\\visualizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|solutionrelative:visualizador\\visualizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|c:\\users\\henrique\\desktop\\visualizador\\visualizador\\visualizador\\visualizador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6E48AD-0FCB-2160-8587-89B3BD2ABF12}|visualizador\\visualizador.csproj|solutionrelative:visualizador\\visualizador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +34,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "OptionsForm.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.cs",
               "RelativeDocumentMoniker": "visualizador\\OptionsForm.cs",
-              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.cs [Projeto]",
-              "RelativeToolTip": "visualizador\\OptionsForm.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.cs [Projeto]*",
+              "RelativeToolTip": "visualizador\\OptionsForm.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-28T19:11:57.888Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Visualizador.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\Visualizador.cs",
               "RelativeDocumentMoniker": "visualizador\\Visualizador.cs",
-              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\Visualizador.cs [Projeto]*",
-              "RelativeToolTip": "visualizador\\Visualizador.cs [Projeto]*",
+              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\Visualizador.cs [Projeto]",
+              "RelativeToolTip": "visualizador\\Visualizador.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-28T18:43:11.478Z",
               "IsPinned": true,
@@ -67,19 +72,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OptionsForm.cs",
-              "DocumentMoniker": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.cs",
-              "RelativeDocumentMoniker": "visualizador\\OptionsForm.cs",
-              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.cs",
-              "RelativeToolTip": "visualizador\\OptionsForm.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowBUAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "OptionsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.Designer.cs",
+              "RelativeDocumentMoniker": "visualizador\\OptionsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.Designer.cs*",
+              "RelativeToolTip": "visualizador\\OptionsForm.Designer.cs*",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwIEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-28T19:41:48.829Z"
+              "WhenOpened": "2026-09-14T01:05:51.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "OptionsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.cs",
+              "RelativeDocumentMoniker": "visualizador\\OptionsForm.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\OptionsForm.cs*",
+              "RelativeToolTip": "visualizador\\OptionsForm.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAWwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T19:41:48.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Visualizador.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\Visualizador.cs",
               "RelativeDocumentMoniker": "visualizador\\Visualizador.cs",
@@ -91,13 +110,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Visualizador.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\Visualizador.Designer.cs",
               "RelativeDocumentMoniker": "visualizador\\Visualizador.Designer.cs",
-              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\Visualizador.Designer.cs*",
-              "RelativeToolTip": "visualizador\\Visualizador.Designer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Henrique\\Desktop\\Visualizador\\visualizador\\visualizador\\Visualizador.Designer.cs",
+              "RelativeToolTip": "visualizador\\Visualizador.Designer.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-28T18:42:54.807Z",
               "EditorCaption": ""
